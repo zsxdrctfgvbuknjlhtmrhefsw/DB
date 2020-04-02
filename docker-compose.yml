@@ -7,7 +7,7 @@ services:
     image: postgres
     restart: always
     ports:
-      - 5342:5342
+      - 5432:5432
     env_file:
       - ".env"
 #    network_mode: "host"
